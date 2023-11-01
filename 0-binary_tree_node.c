@@ -2,7 +2,8 @@
 /**
  * binary_tree_node - the binary tree node
  * @parent: pointer to the parent node
- * return: pointer to the new node otherwise NULL on failure
+ * @value: value to put the new node
+ * Return: return a pointer to the new node, or NULL on failure
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
